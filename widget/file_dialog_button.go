@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/zc310/lottery/fyne/icons/fontawesome"
+	"github.com/zc310/fyne-l/icons/fontawesome"
 
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/container"

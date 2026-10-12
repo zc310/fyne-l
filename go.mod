@@ -1,4 +1,4 @@
-module github.com/zc310/lottery/fyne
+module github.com/zc310/fyne-l
 
 go 1.27
 
