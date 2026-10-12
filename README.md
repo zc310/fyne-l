@@ -1,1 +1,1 @@
-# fyne-l
+# fyne-l [![GoDoc](https://pkg.go.dev/badge/github.com/zc310/fyne-l.svg)](https://pkg.go.dev/github.com/zc310/fyne-l)
