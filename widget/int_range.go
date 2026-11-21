@@ -96,6 +96,14 @@ func (r *IntRange) CreateRenderer() fyne.WidgetRenderer {
 // Range 返回当前最小值、最大值
 func (r *IntRange) Range() (int, int) { return r.min, r.max }
 
+// SetEntryMinWidth 设置最小值、最大值输入框的最小宽度，不改变范围值。
+func (r *IntRange) SetEntryMinWidth(width float32) {
+	r.minEntry.SetMinWidth(width)
+	r.maxEntry.SetMinWidth(width)
+	r.box.Refresh()
+	r.Refresh()
+}
+
 // SetRange 外部设置范围并刷新界面
 func (r *IntRange) SetRange(min, max int) {
 	r.min = min
